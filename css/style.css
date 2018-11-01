@@ -4,8 +4,30 @@ html {
 
 body {
     height: 100%;
+    background-color: #137A7F;
     
 }
+
+.header{
+    color: white;
+    background-color: #E12885;
+    padding: 20px;
+}
+
+.footer{
+    background-color: #373B3E;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.thumbnail-image{
+    width: 200px;
+    border:solid black 5px;
+}
+
 a {
     text-decoration: none;
 }
@@ -13,6 +35,7 @@ a {
 .main {
     height: 100%;
 }
+
 .social-image{
     width: 30px;
     margin: 15px;
