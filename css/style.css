@@ -4,23 +4,88 @@ html {
 
 body {
     height: 100%;
-    background-color: #137A7F;
-    
+    background-color: #00DDC0;
+    color: #373b3e;
+    font-family: 'Voces', cursive;
 }
 
 .header{
     color: white;
     background-color: #E12885;
     padding: 20px;
+    font-family: 'Nova Mono', monospace;
+    font-size: 50px;
 }
 
 .footer{
     background-color: #373B3E;
+    padding:10px;
+    font-family: 'Roboto Mono', monospace;
+    color: #bec8d1;
+    
+}
+
+.tap{
+    background-color: #137a7f;
+    border-radius: 20px;
+    padding: 10px;
+    margin:5px;
+    color: #bec8d1;
+    font-family: 'Nova Mono', monospace;
+    font-size: 20px;
+}
+
+.navbar{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+#home{
+    margin-right: 100px;
+}
+
+#gallery{
+    margin-left: 100px;
 }
 
 .gallery{
     display: flex;
     justify-content: space-between;
+    margin: 20px;
+}
+
+.thumbnail-image{
+    border-radius: 15px;
+}
+
+#mikucute{
+    width: 200px;
+    border: solid black 10px;
+    border-radius: 20px;
+}
+
+#mikucute2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo{
+    margin-top: 60px;
+}
+
+#vocaloid{
+    display: flex;
+    justify-content: space-around;
+}
+
+#miku{
+    padding: 20px;
 }
 
 .thumbnail-image{
